@@ -1,0 +1,14 @@
+.footer {
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_place_footer {
+  background-image: url(/images/logo_place_footer.svg);
+  align-self: flex-start;
+}
