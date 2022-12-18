@@ -6,26 +6,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  border: 0;
   display: flex;
-}
-
-.logo_place_header {
-  top: 30px;
-  left: 64px;
-  position: absolute;
-  display: flexbox;
-}
-
-.logo {
-  width: 228px;
-  height: 32px;
-  align-self: center;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.logo_place_header {
-  background-image: url(/images/logo_place_header.svg);
-  alt: "logo Yandex";
+  overflow: hidden;
 }

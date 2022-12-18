@@ -1,7 +1,3 @@
 .khan__book-pic {
-  background-image: url(/images/khan-book.jpg);
-  alt: "Весь мир — школа";
-  width: 620px;
-  height: 608px;
-  margin-right: 48px;
+  background-size: 620px 608px;
 }

@@ -1,35 +1,4 @@
 .techniques {
   width: 80%;
   margin: 0 auto;
-  padding-top: 100px;
-}
-
-.cards {
-  width: 920px;
-  display: flex;
-  margin: 0 auto;
-  align-items: first baseline;
-  column-gap: 100px;
-  row-gap: 60px;
-  flex-wrap: wrap;
-}
-
-.cards__image-attention {
-  background-image: url(/images/cards-attention.png);
-}
-
-.cards__image-recall {
-  background-image: url(/images/cards-recall.png);
-}
-
-.cards__image-interliving {
-  background-image: url(/images/cards-interliving.png);
-}
-
-.cards__image-question {
-  background-image: url(/images/cards-question.png);
-}
-
-.cards__image-competence {
-  background-image: url(/images/cards-competence.png);
 }

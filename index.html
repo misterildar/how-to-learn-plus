@@ -4,22 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./page/index.css" />
+    <link rel="stylesheet" href="./page/page.css"/>
   </head>
 
   <body>
-    <content class="page">
+    <main class="page">
       <header class="header">
-        <div class="logo logo_place_header"></div>
-        <div class="header__link"></div>
+        <img class="logo logo_place_header" src="/images/logo_place_header.svg" alt="logo">
         <div class="header__square-pic header__square-pic_rotation"></div>
-        <div class="header__main-ilustration"></div>
+        <img class="header__main-ilustration" src="/images/header-image.png" alt="image">
         <h1 class="header__title">Научиться учиться</h1>
-        <div class="header__link">
           <p class="header__subtitle">
-              Какие современные и эффективные подходы к обучению вы можете
-              использовать в своей жизни?<a href="#">Узнать&rarr;</a>
-          </p>
+            Какие современные и эффективные подходы к обучению вы можете
+            использовать в своей жизни?<a class="header__link" href="#">Узнать&rarr;</a>
+        </p>
       </header>
 
       <section class="description">
@@ -53,27 +51,27 @@
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <div class="cards">
           <div class="cards__item">
-            <div class="cards__image cards__image-attention"></div>
+            <img class="cards__image" src="/images/cards-attention.png" alt="attention">
             <h4 class="cards__title">Два вида внимания</h4>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image cards__image-recall"></div>
+            <img class="cards__image" src="/images/cards-recall.png" alt="recall">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image cards__image-interliving"></div>
+            <img class="cards__image" src="/images/cards-interliving.png" alt="interliving">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image cards__image-question"></div>
+           <img class="cards__image" src="/images/cards-question.png" alt="question">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
           <div class="cards__item">
-            <div class="cards__image cards__image-competence"></div>
+            <img class="cards__image" src="/images/cards-competence.png" alt="competence">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
@@ -136,7 +134,7 @@
         <h2 class="feynman__title">Фейнмана</h2>
 
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a href="#"><h3 class="feynman__link">Подробнее&rarr;</h3></a>
+        <a class="feynman__link" href="#"><h3 >Подробнее&rarr;</h3></a>
       </section>
 
       <section class="digits">
@@ -230,10 +228,8 @@
             Кинорежиссер, продюсер
           </p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
-            <p class="khan__buy-link">
-              <a href="#">Купить книгу&rarr;</a>
-            </p>
+            <img class="khan__book-pic" src="/images/khan-book.jpg" alt="book">
+            <a class="khan__buy-link" href="#"><h3 >Купить книгу&rarr;</h3></a>
           </div>
         </div>
       </section>
@@ -341,32 +337,32 @@
           <div class="resources__link"><a href="#"><img src="./images/logo/resources-polka.svg" alt="polka"></a></div>
         </div>
       </section>
-    </content>
-
-    <div class="footer">
+    </main>
+    <footer class="footer">
       <div class="footer__columns">
           <div class="footer__column footer__column_content_copyring">
-            <div class="logo logo_place_footer"></div>
+           <div class="logo logo_place_footer"></div>
             <p class="footer__autor">&copyИльдар Шайхутдинов</p>
         </div>
-          <div class="footer__column footer__column_content_info">
-            <p class="footer__column-heading">О Практикуме</p>
-            <div class="footer__column-links">
-              <a href="#"><p class="footer__column-link">Концепция</p></a>
-              <a href="#"><p class="footer__column-link">Наставники</p></a>
-              <a href="#"><p class="footer__column-link">Главная</p></a>
-            </div>
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <p class="footer__column-heading">Соцсети</p>
-            <div class="footer__column-links">
-               <p class="footer__column-link"><a href="#"><img src="/images/youtube-icon.svg" alt="YouTube-icon">YouTube</a></p>
-               <p class="footer__column-link"><a href="#"><img src="/images/vk_color_white.svg" alt="vk-icon">ВКонтакте</a></p>
-               <p class="footer__column-link"><a href="#"><img src="/images/tiktok-icon.svg" alt="tiktok-icon">TikTok</a></p>
-            </div>
-          </div>
+          <nav class="footer__column footer__column_content_info">
+            <h4 class="footer__column-heading">О Практикуме</h4>
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Соцсети</h4>
+            <ul class="footer__column-links">
+               <li> <a class="footer__column-link" href="#"><img class="footer__social-icon" src="/images/youtube-icon.svg" alt="YouTube-icon">YouTube</a></li>
+               <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="/images/vk_color_white.svg" alt="vk-icon">ВКонтакте</a></li>
+               <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="/images/tiktok-icon.svg" alt="tiktok-icon">TikTok</a></li>
+            </ul>
+          </nav>
       </div>
-    </div>
+    </footer>
+
   </body>
 </html>
 

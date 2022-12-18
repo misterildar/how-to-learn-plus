@@ -2,16 +2,3 @@
   display: flex;
   justify-content: center;
 }
-
-.two-columns {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  min-height: 300px;
-  width: 80%;
-  min-width: 784px;
-  object-fit: 80%;
-  min-width: 784px;
-  display: flex;
-  align-items: first baseline;
-  justify-content: space-between;
-}

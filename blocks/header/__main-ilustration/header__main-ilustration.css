@@ -1,8 +1,6 @@
 .header__main-ilustration {
   width: 765px;
   height: 608px;
-  background-image: url(/images/header-image.png);
-  alt: "Картина опять двойка";
   position: absolute;
   right: 0;
   bottom: 0;

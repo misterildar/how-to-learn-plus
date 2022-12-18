@@ -4,11 +4,11 @@
   padding-bottom: 40px;
   background-color: #1f1f1f;
   color: white;
+  font-family: "Inter", "Arial", sans-serif;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-}
-
-.logo_place_footer {
-  background-image: url(/images/logo_place_footer.svg);
-  align-self: flex-start;
+  box-sizing: border-box;
 }
