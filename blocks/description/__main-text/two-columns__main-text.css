@@ -6,4 +6,5 @@
   flex-direction: column;
   justify-content: space-between;
   padding-left: 60px;
+  min-width: 784px;
 }
